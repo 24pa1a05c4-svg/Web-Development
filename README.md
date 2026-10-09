@@ -1,2 +1,2 @@
 # Web-Development
-Practice on HTML,CSS and JAVASCRIPTs
+Practice on HTML,CSS and JAVASCRIPT
