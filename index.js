@@ -19,8 +19,7 @@ function toggleUser(){
         index=0;
     document.getElementById("user-name").innerHTML=users[index].name;
     document.getElementById("gender").innerHTML=users[index].gender;
-    document.getElementById("user-image").src=users[index].image;
-    
+    document.getElementById("user-image").src=users[index].image;    
 }
 async function randomUser(){
     const response=await fetch("https://randomuser.me/api/");
