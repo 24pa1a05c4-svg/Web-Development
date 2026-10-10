@@ -30,3 +30,4 @@ async function randomUser(){
     document.getElementById("gender").innerHTML=data.results[0].gender;
     document.getElementById("user-image").src=data.results[0].picture.medium;
 }
+randomUser();
